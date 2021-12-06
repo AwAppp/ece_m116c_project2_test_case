@@ -55,8 +55,6 @@ for line in lines:
     elif mem_w == " 1":  #sw instruction
         write_count += 1
 
-    elif mem_w == " 0" and mem_r == "0":    continue
-
     dm_cycles, fa_cycles, sa_cycles = dm_cycles + 1, fa_cycles + 1, sa_cycles + 1
     
 # print the read and write count
