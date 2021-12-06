@@ -65,16 +65,16 @@ print("write count: ", write_count)
 print(("*" * 8) + "DM" + ("*" * 8))
 print("miss: ", dm_miss)
 print("miss rate: ", dm_miss / read_count)
-print("cycles: ", dm_cycles)
+print("clock: ", dm_cycles)
 
 #print the fully associativity result
 print(("*" * 8) + "FA" + ("*" * 8))
 print("miss: ", fa_miss)
 print("miss rate: ", fa_miss / read_count)
-print("cycles: ", fa_cycles)
+print("clock: ", fa_cycles)
 
 #print the set associativity result
 print(("*" * 8) + "SA" + ("*" * 8))
 print("miss: ", sa_miss)
 print("miss rate: ", sa_miss / read_count)
-print("cycles: ", sa_cycles)
+print("clock: ", sa_cycles)
